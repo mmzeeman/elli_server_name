@@ -1,0 +1,11 @@
+{application, elli_server_name,
+ [
+  {description, "Elli middleware adding the Server name header"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
